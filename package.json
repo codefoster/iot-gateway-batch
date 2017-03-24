@@ -1,0 +1,42 @@
+{
+  "name": "iot-gateway-batch",
+  "version": "0.1.0",
+  "description": "Batch Module for Azure IoT Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefoster/iot-gateway-batch.git"
+  },
+  "keywords": [
+    "azure-iot-gateway",
+    "iot",
+    "batching",
+    "batch"
+  ],
+  "author": "Jeremy Foster (http://codefoster.com/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/codefoster/iot-gateway-batch/issues"
+  },
+  "homepage": "https://github.com/codefoster/iot-gateway-batch",
+  "dependencies": {
+    "rxjs": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.2",
+    "mocha": "^3.2.0",
+    "mocha-jshint": "^2.3.1",
+    "mocha-sinon": "^1.1.6",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  }
+}
